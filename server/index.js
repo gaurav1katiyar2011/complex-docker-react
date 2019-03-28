@@ -50,7 +50,7 @@ app.get('/values/current', async (req, res) => {
     res.send(values);
   });
 });
-
+// post api
 app.post('/values', async (req, res) => {
   const index = req.body.index;
 
